@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3757E4246DA256007364EF /* PageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3757E3246DA256007364EF /* PageSource.swift */; };
+		6B3757E8246DA6DB007364EF /* MedicineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3757E7246DA6DB007364EF /* MedicineProvider.swift */; };
+		6B3757F0246E099D007364EF /* HospitalsViewController+presenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3757EF246E099D007364EF /* HospitalsViewController+presenting.swift */; };
+		6B3757F2246E09B8007364EF /* HospitalsViewController+controlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3757F1246E09B8007364EF /* HospitalsViewController+controlling.swift */; };
+		6B3757F4246E09CF007364EF /* HospitalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3757F3246E09CF007364EF /* HospitalTableViewCell.swift */; };
+		6B3F1D0B2464F6A50024D7A8 /* MedicineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F1D0A2464F6A50024D7A8 /* MedicineDetailsViewController.swift */; };
+		6B3F1D0D2464FBCE0024D7A8 /* DosageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F1D0C2464FBCE0024D7A8 /* DosageViewController.swift */; };
+		6B42C140246F21D0000424F9 /* ProtocolShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42C13F246F21D0000424F9 /* ProtocolShowViewController.swift */; };
+		6B42C143246F2C33000424F9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B42C142246F2C33000424F9 /* WebKit.framework */; };
+		6B45E1172468B7CE00D6A8CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B45E1192468B7CE00D6A8CA /* Localizable.strings */; };
+		6B45E1232468D9F500D6A8CA /* ProtocolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45E1222468D9F500D6A8CA /* ProtocolModel.swift */; };
+		6B45E1252468DA0500D6A8CA /* HospitalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45E1242468DA0500D6A8CA /* HospitalModel.swift */; };
+		6B45E1282468DED700D6A8CA /* MedicineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B45E1272468DED700D6A8CA /* MedicineModel.swift */; };
+		6B478C4C2470160C00BB742D /* MedicinesViewController+presenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B478C4B2470160C00BB742D /* MedicinesViewController+presenting.swift */; };
+		6B478C4E2470162E00BB742D /* MedicinesViewController+controlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B478C4D2470162E00BB742D /* MedicinesViewController+controlling.swift */; };
+		6B478C502470164300BB742D /* MedicineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B478C4F2470164300BB742D /* MedicineTableViewCell.swift */; };
+		6B50B6342458B389002F1C6F /* szenzormodalitasokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50B6332458B389002F1C6F /* szenzormodalitasokTests.swift */; };
+		6B807DD724696E3800243F37 /* ProtocolsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DD624696E3800243F37 /* ProtocolsNavigationController.swift */; };
+		6B807DDB24696FDD00243F37 /* MedicinesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DDA24696FDD00243F37 /* MedicinesNavigationController.swift */; };
+		6B807DDD24696FEC00243F37 /* FavouritesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DDC24696FEC00243F37 /* FavouritesNavigationController.swift */; };
+		6B807DDF2469700400243F37 /* HospitalsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DDE2469700400243F37 /* HospitalsNavigationController.swift */; };
+		6B807DE12469701400243F37 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DE02469701400243F37 /* SettingsNavigationController.swift */; };
+		6B807DE32469791200243F37 /* HospitalProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DE22469791200243F37 /* HospitalProvider.swift */; };
+		6B807DE524697F4800243F37 /* ProtocolProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DE424697F4800243F37 /* ProtocolProvider.swift */; };
+		6B807DE724698F0B00243F37 /* ProtocolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DE624698F0B00243F37 /* ProtocolTableViewCell.swift */; };
+		6B807DEA246990BA00243F37 /* ProtocolsViewController+presenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DE9246990BA00243F37 /* ProtocolsViewController+presenting.swift */; };
+		6B807DF02469991600243F37 /* ProtocolsViewController+controlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DEF2469991600243F37 /* ProtocolsViewController+controlling.swift */; };
+		6B807DF324699CC700243F37 /* ProvidingInjecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807DF224699CC700243F37 /* ProvidingInjecting.swift */; };
+		6B807E1B246A35B600243F37 /* QrCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B807E1A246A35B600243F37 /* QrCodeReaderViewController.swift */; };
+		6BACFD28246459BC00DED1A6 /* CustomSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACFD27246459BC00DED1A6 /* CustomSettingsButton.swift */; };
+		6BACFD2C24646F3E00DED1A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACFD2B24646F3E00DED1A6 /* Constants.swift */; };
+		6BD00FCE24732A4B00BBDF69 /* medicines.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BD00FCD24732A4A00BBDF69 /* medicines.json */; };
+		6BDEC6342471B13100D84731 /* CustomDosageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEC6332471B13100D84731 /* CustomDosageButton.swift */; };
+		6BDEC6362471B5A800D84731 /* CustomMedicineDetailsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEC6352471B5A800D84731 /* CustomMedicineDetailsButton.swift */; };
+		6BDEC6382471CC2C00D84731 /* FavouriteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEC6372471CC2C00D84731 /* FavouriteProvider.swift */; };
+		6BDEC63A2472273F00D84731 /* MoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDEC6392472273F00D84731 /* MoreDetailViewController.swift */; };
+		6BDFF7C9245774DD002A75F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7C8245774DD002A75F2 /* AppDelegate.swift */; };
+		6BDFF7CB245774DD002A75F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7CA245774DD002A75F2 /* SceneDelegate.swift */; };
+		6BDFF7CD245774DD002A75F2 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7CC245774DD002A75F2 /* MainController.swift */; };
+		6BDFF7D0245774DD002A75F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFF7CE245774DD002A75F2 /* Main.storyboard */; };
+		6BDFF7D2245774DE002A75F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFF7D1245774DE002A75F2 /* Assets.xcassets */; };
+		6BDFF7D5245774DE002A75F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFF7D3245774DE002A75F2 /* LaunchScreen.storyboard */; };
+		6BDFF7E424578B64002A75F2 /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7E324578B64002A75F2 /* MedicinesViewController.swift */; };
+		6BDFF7E824578BAB002A75F2 /* ProtocolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7E724578BAB002A75F2 /* ProtocolsViewController.swift */; };
+		6BDFF7EA24578BC4002A75F2 /* HospitalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7E924578BC4002A75F2 /* HospitalsViewController.swift */; };
+		6BDFF7EC24578BD0002A75F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF7EB24578BD0002A75F2 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B50B6362458B389002F1C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDFF7BD245774DD002A75F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDFF7C4245774DD002A75F2;
+			remoteInfo = szakdolgozat2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B3757E3246DA256007364EF /* PageSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSource.swift; sourceTree = "<group>"; };
+		6B3757E7246DA6DB007364EF /* MedicineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineProvider.swift; sourceTree = "<group>"; };
+		6B3757EF246E099D007364EF /* HospitalsViewController+presenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalsViewController+presenting.swift"; sourceTree = "<group>"; };
+		6B3757F1246E09B8007364EF /* HospitalsViewController+controlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalsViewController+controlling.swift"; sourceTree = "<group>"; };
+		6B3757F3246E09CF007364EF /* HospitalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalTableViewCell.swift; sourceTree = "<group>"; };
+		6B3F1D0A2464F6A50024D7A8 /* MedicineDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineDetailsViewController.swift; sourceTree = "<group>"; };
+		6B3F1D0C2464FBCE0024D7A8 /* DosageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageViewController.swift; sourceTree = "<group>"; };
+		6B42C13F246F21D0000424F9 /* ProtocolShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolShowViewController.swift; sourceTree = "<group>"; };
+		6B42C142246F2C33000424F9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6B45E1182468B7CE00D6A8CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B45E1212468D8B000D6A8CA /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B45E1222468D9F500D6A8CA /* ProtocolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolModel.swift; sourceTree = "<group>"; };
+		6B45E1242468DA0500D6A8CA /* HospitalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalModel.swift; sourceTree = "<group>"; };
+		6B45E1272468DED700D6A8CA /* MedicineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineModel.swift; sourceTree = "<group>"; };
+		6B478C4B2470160C00BB742D /* MedicinesViewController+presenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedicinesViewController+presenting.swift"; sourceTree = "<group>"; };
+		6B478C4D2470162E00BB742D /* MedicinesViewController+controlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MedicinesViewController+controlling.swift"; sourceTree = "<group>"; };
+		6B478C4F2470164300BB742D /* MedicineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTableViewCell.swift; sourceTree = "<group>"; };
+		6B50B6312458B389002F1C6F /* szenzormodalitasokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = szenzormodalitasokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50B6332458B389002F1C6F /* szenzormodalitasokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = szenzormodalitasokTests.swift; sourceTree = "<group>"; };
+		6B50B6352458B389002F1C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B807DD624696E3800243F37 /* ProtocolsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsNavigationController.swift; sourceTree = "<group>"; };
+		6B807DDA24696FDD00243F37 /* MedicinesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesNavigationController.swift; sourceTree = "<group>"; };
+		6B807DDC24696FEC00243F37 /* FavouritesNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesNavigationController.swift; sourceTree = "<group>"; };
+		6B807DDE2469700400243F37 /* HospitalsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsNavigationController.swift; sourceTree = "<group>"; };
+		6B807DE02469701400243F37 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
+		6B807DE22469791200243F37 /* HospitalProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalProvider.swift; sourceTree = "<group>"; };
+		6B807DE424697F4800243F37 /* ProtocolProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolProvider.swift; sourceTree = "<group>"; };
+		6B807DE624698F0B00243F37 /* ProtocolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTableViewCell.swift; sourceTree = "<group>"; };
+		6B807DE9246990BA00243F37 /* ProtocolsViewController+presenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProtocolsViewController+presenting.swift"; sourceTree = "<group>"; };
+		6B807DEF2469991600243F37 /* ProtocolsViewController+controlling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProtocolsViewController+controlling.swift"; sourceTree = "<group>"; };
+		6B807DF224699CC700243F37 /* ProvidingInjecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvidingInjecting.swift; sourceTree = "<group>"; };
+		6B807E1A246A35B600243F37 /* QrCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeReaderViewController.swift; sourceTree = "<group>"; };
+		6BACFD27246459BC00DED1A6 /* CustomSettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettingsButton.swift; sourceTree = "<group>"; };
+		6BACFD2B24646F3E00DED1A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6BD00FCD24732A4A00BBDF69 /* medicines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = medicines.json; sourceTree = "<group>"; };
+		6BDEC6332471B13100D84731 /* CustomDosageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDosageButton.swift; sourceTree = "<group>"; };
+		6BDEC6352471B5A800D84731 /* CustomMedicineDetailsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMedicineDetailsButton.swift; sourceTree = "<group>"; };
+		6BDEC6372471CC2C00D84731 /* FavouriteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteProvider.swift; sourceTree = "<group>"; };
+		6BDEC6392472273F00D84731 /* MoreDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailViewController.swift; sourceTree = "<group>"; };
+		6BDFF7C5245774DD002A75F2 /* Ambulance Aid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ambulance Aid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDFF7C8245774DD002A75F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BDFF7CA245774DD002A75F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BDFF7CC245774DD002A75F2 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		6BDFF7CF245774DD002A75F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BDFF7D1245774DE002A75F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BDFF7D4245774DE002A75F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BDFF7D6245774DE002A75F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDFF7E324578B64002A75F2 /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
+		6BDFF7E724578BAB002A75F2 /* ProtocolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsViewController.swift; sourceTree = "<group>"; };
+		6BDFF7E924578BC4002A75F2 /* HospitalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsViewController.swift; sourceTree = "<group>"; };
+		6BDFF7EB24578BD0002A75F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B50B62E2458B389002F1C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF7C2245774DD002A75F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B42C143246F2C33000424F9 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B42C141246F2C33000424F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B42C142246F2C33000424F9 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B45E1142468939900D6A8CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7C8245774DD002A75F2 /* AppDelegate.swift */,
+				6BDFF7CA245774DD002A75F2 /* SceneDelegate.swift */,
+				6BDFF7D1245774DE002A75F2 /* Assets.xcassets */,
+				6BACFD2B24646F3E00DED1A6 /* Constants.swift */,
+				6B45E1192468B7CE00D6A8CA /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B45E1262468DA7400D6A8CA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7D6245774DE002A75F2 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6B50B6322458B389002F1C6F /* szenzormodalitasokTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B50B6332458B389002F1C6F /* szenzormodalitasokTests.swift */,
+				6B50B6352458B389002F1C6F /* Info.plist */,
+			);
+			path = szenzormodalitasokTests;
+			sourceTree = "<group>";
+		};
+		6B807DE82469904E00243F37 /* ProtocolsPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DD624696E3800243F37 /* ProtocolsNavigationController.swift */,
+				6BDFF7E724578BAB002A75F2 /* ProtocolsViewController.swift */,
+				6B807DE9246990BA00243F37 /* ProtocolsViewController+presenting.swift */,
+				6B807DEF2469991600243F37 /* ProtocolsViewController+controlling.swift */,
+				6B807DE624698F0B00243F37 /* ProtocolTableViewCell.swift */,
+				6B42C13F246F21D0000424F9 /* ProtocolShowViewController.swift */,
+			);
+			path = ProtocolsPage;
+			sourceTree = "<group>";
+		};
+		6B807DEB2469910900243F37 /* MedicinesPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DDA24696FDD00243F37 /* MedicinesNavigationController.swift */,
+				6BDFF7E324578B64002A75F2 /* MedicinesViewController.swift */,
+				6B478C4B2470160C00BB742D /* MedicinesViewController+presenting.swift */,
+				6B478C4D2470162E00BB742D /* MedicinesViewController+controlling.swift */,
+				6B478C4F2470164300BB742D /* MedicineTableViewCell.swift */,
+				6B807E1A246A35B600243F37 /* QrCodeReaderViewController.swift */,
+				6B3F1D0A2464F6A50024D7A8 /* MedicineDetailsViewController.swift */,
+				6BDEC6352471B5A800D84731 /* CustomMedicineDetailsButton.swift */,
+				6BDEC6392472273F00D84731 /* MoreDetailViewController.swift */,
+				6BDEC6332471B13100D84731 /* CustomDosageButton.swift */,
+				6B3F1D0C2464FBCE0024D7A8 /* DosageViewController.swift */,
+			);
+			path = MedicinesPage;
+			sourceTree = "<group>";
+		};
+		6B807DEC2469910F00243F37 /* FavouritesPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DDC24696FEC00243F37 /* FavouritesNavigationController.swift */,
+			);
+			path = FavouritesPage;
+			sourceTree = "<group>";
+		};
+		6B807DED2469911B00243F37 /* HospitalsPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DDE2469700400243F37 /* HospitalsNavigationController.swift */,
+				6BDFF7E924578BC4002A75F2 /* HospitalsViewController.swift */,
+				6B3757EF246E099D007364EF /* HospitalsViewController+presenting.swift */,
+				6B3757F1246E09B8007364EF /* HospitalsViewController+controlling.swift */,
+				6B3757F3246E09CF007364EF /* HospitalTableViewCell.swift */,
+			);
+			path = HospitalsPage;
+			sourceTree = "<group>";
+		};
+		6B807DEE2469914100243F37 /* SettingsPage */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DE02469701400243F37 /* SettingsNavigationController.swift */,
+				6BDFF7EB24578BD0002A75F2 /* SettingsViewController.swift */,
+				6BACFD27246459BC00DED1A6 /* CustomSettingsButton.swift */,
+			);
+			path = SettingsPage;
+			sourceTree = "<group>";
+		};
+		6BDFF7BC245774DD002A75F2 = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7C7245774DD002A75F2 /* szenzormodalitasok */,
+				6B50B6322458B389002F1C6F /* szenzormodalitasokTests */,
+				6BDFF7C6245774DD002A75F2 /* Products */,
+				6B42C141246F2C33000424F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		6BDFF7C6245774DD002A75F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7C5245774DD002A75F2 /* Ambulance Aid.app */,
+				6B50B6312458B389002F1C6F /* szenzormodalitasokTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDFF7C7245774DD002A75F2 /* szenzormodalitasok */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7E124578617002A75F2 /* DI */,
+				6BDFF7DE245785D8002A75F2 /* Model */,
+				6BDFF7DF245785F0002A75F2 /* View */,
+				6BDFF7E0245785FC002A75F2 /* Controller */,
+				6B45E1142468939900D6A8CA /* Resources */,
+				6B45E1262468DA7400D6A8CA /* Config */,
+			);
+			path = szenzormodalitasok;
+			sourceTree = "<group>";
+		};
+		6BDFF7DE245785D8002A75F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B3757E3246DA256007364EF /* PageSource.swift */,
+				6B45E1272468DED700D6A8CA /* MedicineModel.swift */,
+				6B3757E7246DA6DB007364EF /* MedicineProvider.swift */,
+				6BDEC6372471CC2C00D84731 /* FavouriteProvider.swift */,
+				6B45E1222468D9F500D6A8CA /* ProtocolModel.swift */,
+				6B807DE424697F4800243F37 /* ProtocolProvider.swift */,
+				6B45E1242468DA0500D6A8CA /* HospitalModel.swift */,
+				6B807DE22469791200243F37 /* HospitalProvider.swift */,
+				6BD00FCD24732A4A00BBDF69 /* medicines.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BDFF7DF245785F0002A75F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7CE245774DD002A75F2 /* Main.storyboard */,
+				6BDFF7D3245774DE002A75F2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BDFF7E0245785FC002A75F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF7CC245774DD002A75F2 /* MainController.swift */,
+				6B807DEB2469910900243F37 /* MedicinesPage */,
+				6B807DEC2469910F00243F37 /* FavouritesPage */,
+				6B807DE82469904E00243F37 /* ProtocolsPage */,
+				6B807DED2469911B00243F37 /* HospitalsPage */,
+				6B807DEE2469914100243F37 /* SettingsPage */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BDFF7E124578617002A75F2 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				6B807DF224699CC700243F37 /* ProvidingInjecting.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B50B6302458B389002F1C6F /* szenzormodalitasokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B50B6382458B389002F1C6F /* Build configuration list for PBXNativeTarget "szenzormodalitasokTests" */;
+			buildPhases = (
+				6B50B62D2458B389002F1C6F /* Sources */,
+				6B50B62E2458B389002F1C6F /* Frameworks */,
+				6B50B62F2458B389002F1C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B50B6372458B389002F1C6F /* PBXTargetDependency */,
+			);
+			name = szenzormodalitasokTests;
+			productName = szakdolgozat2020Tests;
+			productReference = 6B50B6312458B389002F1C6F /* szenzormodalitasokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BDFF7C4245774DD002A75F2 /* szenzormodalitasok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDFF7D9245774DE002A75F2 /* Build configuration list for PBXNativeTarget "szenzormodalitasok" */;
+			buildPhases = (
+				6BDFF7C1245774DD002A75F2 /* Sources */,
+				6BDFF7C2245774DD002A75F2 /* Frameworks */,
+				6BDFF7C3245774DD002A75F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = szenzormodalitasok;
+			productName = szakdolgozat2020;
+			productReference = 6BDFF7C5245774DD002A75F2 /* Ambulance Aid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDFF7BD245774DD002A75F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tóth Zoltán";
+				TargetAttributes = {
+					6B50B6302458B389002F1C6F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					6BDFF7C4245774DD002A75F2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BDFF7C0245774DD002A75F2 /* Build configuration list for PBXProject "szenzormodalitasok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hu,
+			);
+			mainGroup = 6BDFF7BC245774DD002A75F2;
+			productRefGroup = 6BDFF7C6245774DD002A75F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDFF7C4245774DD002A75F2 /* szenzormodalitasok */,
+				6B50B6302458B389002F1C6F /* szenzormodalitasokTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B50B62F2458B389002F1C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF7C3245774DD002A75F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD00FCE24732A4B00BBDF69 /* medicines.json in Resources */,
+				6BDFF7D5245774DE002A75F2 /* LaunchScreen.storyboard in Resources */,
+				6B45E1172468B7CE00D6A8CA /* Localizable.strings in Resources */,
+				6BDFF7D2245774DE002A75F2 /* Assets.xcassets in Resources */,
+				6BDFF7D0245774DD002A75F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B50B62D2458B389002F1C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B50B6342458B389002F1C6F /* szenzormodalitasokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF7C1245774DD002A75F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDFF7E424578B64002A75F2 /* MedicinesViewController.swift in Sources */,
+				6BDEC6362471B5A800D84731 /* CustomMedicineDetailsButton.swift in Sources */,
+				6BDEC6382471CC2C00D84731 /* FavouriteProvider.swift in Sources */,
+				6B45E1252468DA0500D6A8CA /* HospitalModel.swift in Sources */,
+				6B807DE32469791200243F37 /* HospitalProvider.swift in Sources */,
+				6BACFD2C24646F3E00DED1A6 /* Constants.swift in Sources */,
+				6BACFD28246459BC00DED1A6 /* CustomSettingsButton.swift in Sources */,
+				6BDFF7CD245774DD002A75F2 /* MainController.swift in Sources */,
+				6B807E1B246A35B600243F37 /* QrCodeReaderViewController.swift in Sources */,
+				6B807DDF2469700400243F37 /* HospitalsNavigationController.swift in Sources */,
+				6BDFF7C9245774DD002A75F2 /* AppDelegate.swift in Sources */,
+				6B807DD724696E3800243F37 /* ProtocolsNavigationController.swift in Sources */,
+				6B3757F4246E09CF007364EF /* HospitalTableViewCell.swift in Sources */,
+				6B3F1D0D2464FBCE0024D7A8 /* DosageViewController.swift in Sources */,
+				6B807DE724698F0B00243F37 /* ProtocolTableViewCell.swift in Sources */,
+				6B3757E4246DA256007364EF /* PageSource.swift in Sources */,
+				6B807DDD24696FEC00243F37 /* FavouritesNavigationController.swift in Sources */,
+				6B807DF324699CC700243F37 /* ProvidingInjecting.swift in Sources */,
+				6B45E1282468DED700D6A8CA /* MedicineModel.swift in Sources */,
+				6B42C140246F21D0000424F9 /* ProtocolShowViewController.swift in Sources */,
+				6B3757F0246E099D007364EF /* HospitalsViewController+presenting.swift in Sources */,
+				6BDFF7EC24578BD0002A75F2 /* SettingsViewController.swift in Sources */,
+				6BDFF7EA24578BC4002A75F2 /* HospitalsViewController.swift in Sources */,
+				6BDEC6342471B13100D84731 /* CustomDosageButton.swift in Sources */,
+				6BDFF7E824578BAB002A75F2 /* ProtocolsViewController.swift in Sources */,
+				6BDEC63A2472273F00D84731 /* MoreDetailViewController.swift in Sources */,
+				6B478C4E2470162E00BB742D /* MedicinesViewController+controlling.swift in Sources */,
+				6B807DE524697F4800243F37 /* ProtocolProvider.swift in Sources */,
+				6B3757E8246DA6DB007364EF /* MedicineProvider.swift in Sources */,
+				6BDFF7CB245774DD002A75F2 /* SceneDelegate.swift in Sources */,
+				6B807DF02469991600243F37 /* ProtocolsViewController+controlling.swift in Sources */,
+				6B807DEA246990BA00243F37 /* ProtocolsViewController+presenting.swift in Sources */,
+				6B807DE12469701400243F37 /* SettingsNavigationController.swift in Sources */,
+				6B3757F2246E09B8007364EF /* HospitalsViewController+controlling.swift in Sources */,
+				6B478C502470164300BB742D /* MedicineTableViewCell.swift in Sources */,
+				6B45E1232468D9F500D6A8CA /* ProtocolModel.swift in Sources */,
+				6B478C4C2470160C00BB742D /* MedicinesViewController+presenting.swift in Sources */,
+				6B3F1D0B2464F6A50024D7A8 /* MedicineDetailsViewController.swift in Sources */,
+				6B807DDB24696FDD00243F37 /* MedicinesNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B50B6372458B389002F1C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDFF7C4245774DD002A75F2 /* szenzormodalitasok */;
+			targetProxy = 6B50B6362458B389002F1C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B45E1192468B7CE00D6A8CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B45E1182468B7CE00D6A8CA /* en */,
+				6B45E1212468D8B000D6A8CA /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6BDFF7CE245774DD002A75F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BDFF7CF245774DD002A75F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BDFF7D3245774DE002A75F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BDFF7D4245774DE002A75F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B50B6392458B389002F1C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				INFOPLIST_FILE = szenzormodalitasokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoltantoth.szenzormodalitasokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B50B63A2458B389002F1C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				INFOPLIST_FILE = szenzormodalitasokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoltantoth.szenzormodalitasokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BDFF7D7245774DE002A75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BDFF7D8245774DE002A75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BDFF7DA245774DE002A75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				INFOPLIST_FILE = szenzormodalitasok/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoltantoth.szenzormodalitasok;
+				PRODUCT_NAME = "Ambulance Aid";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDFF7DB245774DE002A75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPTZMP389Q;
+				INFOPLIST_FILE = szenzormodalitasok/Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoltantoth.szenzormodalitasok;
+				PRODUCT_NAME = "Ambulance Aid";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B50B6382458B389002F1C6F /* Build configuration list for PBXNativeTarget "szenzormodalitasokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B50B6392458B389002F1C6F /* Debug */,
+				6B50B63A2458B389002F1C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDFF7C0245774DD002A75F2 /* Build configuration list for PBXProject "szenzormodalitasok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF7D7245774DE002A75F2 /* Debug */,
+				6BDFF7D8245774DE002A75F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDFF7D9245774DE002A75F2 /* Build configuration list for PBXNativeTarget "szenzormodalitasok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF7DA245774DE002A75F2 /* Debug */,
+				6BDFF7DB245774DE002A75F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDFF7BD245774DD002A75F2 /* Project object */;
+}

@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  szenzormodalitasok
+
+  Created by Tóth Zoltán on 2021. 05. 11..
+  Copyright © 2021. Tóth Zoltán. All rights reserved.
+*/
+
+// Strings
+"warningMessage"                                = "Warning!";
+"informationMassage"                            = "Information!";
+"launchMessage"                                 = "Values ​​shown for dosing are ONLY recommended, based on factory data and international and domestic practice. AUTHORS ARE NOT RESPONSIBLE. This warning must be acknowledged and accepted before using the program!";
+"cancelMessage"                                 = "Cancel";
+"accpetedMessage"                               = "Accept";
+
+// Page strings
+// Medicines
+"medicinesTab.title"                            = "Medicines";
+"medicinesTab.searchBar.placeholder.text"       = "Search: medicine name";
+"medicineDetailSuggestionForUseButton.title"    = "Suggestion for use";
+"medicineDetailRecommendedDosageButton.title"   = "Recommended Dosage";
+"medicineDetailWarningButton.title"             = "Contraindications, warning";
+"medicineDetailDosageButton.title"              = "Dosage";
+"medicineDosage.title"                          = "Dosage";
+"medicineDosageWeight.title"                    = "Weight";
+"medicineDosageDosage.title"                    = "Dosage";
+"medicineDosageWeightDelete.title"              = "Delete weight";
+
+// Favourites
+"favouritesTab.title"                           = "Favourites";
+"favouritesTab.searchBar.placeholder.text"      = "Search: favourite medicine name";
+
+// Protocols
+"protocolsTab.title"                            = "Protocols";
+"protocolsTab.searchBar.placeholder.text"       = "Search: protocol name";
+
+// Hospitals
+"hospitalsTab.title"                            = "Hospitals";
+"hospitalsTab.informationLabel.title"           = "Here you will find a list of the hospitals closest to you.";
+
+// Settings
+"settingsTab.title"                             = "Settings";
+"settingsTab.updateMedicinesButton.title"       = "Update medicines";
+"settingsTan.updateMedicinesAlertTitle.title"   = "No new database is currently available";
+"settingsTab.otherOptionsButton.title"          = "Other options";
+"settingsTab.otherOptionsAlertTitle.title"      = "Service awaiting development";
+"settingsTab.contactsLabel.title"               = "Contacts:";
+"settingsTab.contactsEMailLabel.title"          = "e-mail address: tothzoltan01181996@gmail.com";
+"settingsTab.contactsPhoneNumberLabel.title"    = "phone number: +36 30 332 1906";
+"settingsTab.versionNumberLabel.title"          = "Version: 0.3.";
+"settingsTab.copyRightLabel.title"              = "Copyright © 2021 Tóth Zoltán. All rights reserved.";

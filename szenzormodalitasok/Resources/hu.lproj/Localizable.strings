@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  szenzormodalitasok
+
+  Created by Tóth Zoltán on 2021. 05. 11..
+  Copyright © 2021. Tóth Zoltán. All rights reserved.
+*/
+
+// Strings
+"warningMessage"                                = "Figyelmeztetés!";
+"informationMassage"                            = "Információ!";
+"launchMessage"                                 = "Az adagolásnál megjelenített értékek CSAK ajánlások, a gyári adatokon, valamint a nemzetközi és hazai gyakorlaton alapulnak. A SZERZŐK NEM VÁLLALNAK FELELŐSSÉGET. A program használatba vétele előtt ezt a figyelmeztetést tudomásul kell venni és el kell fogadni!";
+"cancelMessage"                                 = "Vissza";
+"accpetedMessage"                               = "Elfogadom";
+
+// Page strings
+// Medicines
+"medicinesTab.title"                            = "Gyógyszerek";
+"medicinesTab.searchBar.placeholder.text"       = "Keresés: gyógyszer neve";
+"medicineDetailSuggestionForUseButton.title"    = "Felhasználási javaslat";
+"medicineDetailRecommendedDosageButton.title"   = "Javasolt adagolás";
+"medicineDetailWarningButton.title"             = "Ellenjavallat, figyelmeztetések";
+"medicineDetailDosageButton.title"              = "Adagolás";
+"medicineDosage.title"                          = "Adagolás";
+"medicineDosageWeight.title"                    = "Testsúly";
+"medicineDosageDosage.title"                    = "Adagolás";
+"medicineDosageWeightDelete.title"              = "Testsúly törlése";
+
+// Favourites
+"favouritesTab.title"                           = "Kedvencek";
+"favouritesTab.searchBar.placeholder.text"      = "Keresés: kedvenc gyógyszer neve";
+
+// Protocols
+"protocolsTab.title"                            = "Protokollok";
+"protocolsTab.searchBar.placeholder.text"       = "Keresés: protokoll neve";
+
+// Hospitals
+"hospitalsTab.title"                            = "Kórházak";
+"hospitalsTab.informationLabel.title"           = "Itt találja, az Önhöz legközelebb található kórházak listáját.";
+
+// Settings
+"settingsTab.title"                             = "Beállítások";
+"settingsTab.updateMedicinesButton.title"       = "Gyógyszerek frissítése";
+"settingsTan.updateMedicinesAlertTitle.title"   = "Jelenleg nincs elérhető új adatbázis!";
+"settingsTab.otherOptionsButton.title"          = "További lehetőségek";
+"settingsTab.otherOptionsAlertTitle.title"      = "Továbbfejlesztésre váró funkció!";
+"settingsTab.contactsLabel.title"               = "Elérhetőségek:";
+"settingsTab.contactsEMailLabel.title"          = "e-mail cím: tothzoltan01181996@gmail.com";
+"settingsTab.contactsPhoneNumberLabel.title"    = "telefonszám: +36 30 332 1906";
+"settingsTab.versionNumberLabel.title"          = "Verzió: 0.3.";
+"settingsTab.copyRightLabel.title"              = "Copyright © 2021 Tóth Zoltán. Minden jog fenntartva.";
