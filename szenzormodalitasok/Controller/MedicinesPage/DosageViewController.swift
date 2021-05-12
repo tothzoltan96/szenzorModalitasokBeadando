@@ -2,7 +2,7 @@
 //  DosageVC.swift
 //  szenzormodalitasok
 //
-//  Created by Tóth Zoltán on 2021. 05. 08..
+//  Created by Tóth Zoltán on 2021. 05. 09..
 //  Copyright © 2021. Tóth Zoltán. All rights reserved.
 //
 
